@@ -14,7 +14,7 @@ As such, it is impertinent to identify relevant keywords/phrases that the seller
 
 
 
-### Part 1: (Testing/Automation)
+### Part 1: (Testing/Automation for Product Search)
 Filename: "ads_test.py" <br>
 Objective: For the Sellers of Sony Camera, validate if for a search for the word "camera" displays results for Sony Camera or not on the first 5 Search Results pages. <br>
 Test Scenario: Run an automated search on Amazon.com for the word "camera", & validate the 1st 5 pages for the keyword "Sony" <br>
@@ -38,7 +38,7 @@ Test Case 2:
 
 Test Results: Successfully validated "Sony" products displayed 6 times in Search Results for "camera" in the first 5 pages.
 
-### Part 2: (Data Science/NLP Analysis)
+### Part 2: (Product Text Analysis using NLP techniques)
 Filename: "ads-NLP.md" <br>
 Objective: Identify relevant keywords for products that are displayed under the search keyword "camera" <br>
 Scenario: Perform NLP text analysis on the list of product names from the 1st 5 pages for the search keyword "camera", and identify the most relevant keywords in Product descriptions. <br>
