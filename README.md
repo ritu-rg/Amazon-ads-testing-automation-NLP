@@ -3,14 +3,10 @@ This project is divided into 2 parts:
 - To build an automation scenario using Selenium Python
 - To analyze Search keywords for identifying relevant patterns
 
-#### Problem Statement:
-Sellers looking to advertise on the Amazon advertising platform have 3 major options to select from:
-- Sponsored Ads
-- Sponsored Brands (Headline Ads)
-- Stores
-
-Considering the case of Sponsored/headline Ads on the Amazon.com website, the seller's ads would be displayed for specific users depending on the "keywords" of the current search that the user is running.
-As such, it is impertinent to identify relevant keywords/phrases that the seller should include in their Product Descrptions, in a way such that their products get maximum visibility & they get maximum clicks/buys.
+#### Use Case:
+For Sellers looking to advertise on the Amazon advertising platform using the "Sponsored Ads" option on the Amazon.com website. <br>
+The seller's ads would be displayed for specific users depending on the "keywords" of the current search that the user is running. <br>
+As such, it is important to identify relevant keywords/phrases that the seller could include in the display text/description of their ad, so that their products get maximum visibility & they get maximum clicks/buys/ROI.
 
 
 
