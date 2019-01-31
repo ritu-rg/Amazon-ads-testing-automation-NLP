@@ -24,6 +24,8 @@ class ProductSearch(unittest.TestCase):
             search2 = self.driver.find_elements_by_xpath("//*/a/h2")
             for s in search2:
                 products.append(s.text)
+                if "Sony" in s.text:
+                    print("Sony camera found in search results")
             time.sleep(4)
 
             search3 = self.driver.find_element_by_id("pagnNextString")
