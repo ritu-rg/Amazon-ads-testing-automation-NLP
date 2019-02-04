@@ -10,11 +10,11 @@ As such, it is important to identify relevant keywords/phrases that the seller c
 
 
 
-### Part 1: (Testing/Automation for Product Search)
+### Part 1: (Testing/Automation for Product Search using Selenium Python)
 Filename: "ads_test.py" <br>
 Objective: For the Sellers of Sony Camera, validate if for a search for the word "camera" displays results for Sony Camera or not on the first 5 Search Results pages. <br>
 Test Scenario: Run an automated search on Amazon.com for the word "camera", & validate the first 5 pages for the keyword "Sony" <br>
-Test Setup: Using Python's unittest framework & Selenium interface, driver for Mozilla Firefix Browser <br>
+Test Setup: Using Python's unittest framework & Selenium interface, driver for Mozilla Firefox Browser <br>
 ##### Test Steps: 
 Test Case 1:
 - Open "amazon.com" through the script
@@ -33,13 +33,13 @@ Test Case 2:
 
 Test Results: Successfully validated "Sony" products displayed 6 times in Search Results for "camera" in the first 5 pages.
 
-### Part 2: (Product Text Analysis using NLP techniques)
+### Part 2: (Product Text Analysis using Machine Learning - NLP techniques in R)
 Filename: "ads-NLP.md" <br>
 Objective: Identify relevant keywords for products that are displayed under the search keyword "camera" <br>
 Scenario: Perform NLP text analysis on the list of product names from the first 5 pages for the search keyword "camera", and identify the most relevant keywords in Product descriptions. <br>
 Setup: NLP Analysis using R, Data retreival from Selenium Automation script <br>
 ##### Steps:
-- Create a list of product names obtained from TC2 output
+- Create a list of product names obtained from Test Case 2 output
 - Store it as a csv & read it in R
 - Apply NLP techniques to perform text analysis
   - Identify the list of top/most frequently found common words in Product Descriptions
