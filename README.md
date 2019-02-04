@@ -10,7 +10,7 @@ As such, it is important to identify relevant keywords/phrases that the seller c
 
 
 
-### Part 1: (Testing/Automation for Product Search using Selenium Python)
+### Part 1: (Automated Test Scenario for Product Search on Amazon.com using Selenium Python)
 Filename: "ads_test.py" <br>
 Objective: For the Sellers of Sony Camera, validate if for a search for the word "camera" displays results for Sony Camera or not on the first 5 Search Results pages. <br>
 Test Scenario: Run an automated search on Amazon.com for the word "camera", & validate the first 5 pages for the keyword "Sony" <br>
